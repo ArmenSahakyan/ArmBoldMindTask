@@ -1,0 +1,6 @@
+framework module Pods_ArmBoldMindProject {
+  umbrella header "Pods-ArmBoldMindProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

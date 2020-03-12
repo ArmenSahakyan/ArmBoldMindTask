@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ongoingCellID" rowHeight="170" id="KGk-i7-Jjw" customClass="ComradesTableViewCell" customModule="ArmBoldMindProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="596" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="596" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u61-UB-vLt">
+                        <rect key="frame" x="17" y="8" width="562" height="130"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N*123456" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbb-zt-s1p">
+                                <rect key="frame" x="8" y="5" width="168.5" height="25.5"/>
+                                <fontDescription key="fontDescription" name="KhmerSangamMN" family="Khmer Sangam MN" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXh-Ig-oJA">
+                                <rect key="frame" x="534" y="5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="svr-Nc-zVV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.60392156860000001" green="0.52549019610000003" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="~12" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcg-y0-1g1">
+                                <rect key="frame" x="470" y="5" width="60" height="23.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Kh1-pj-vp0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                <color key="textColor" red="0.60392156862745094" green="0.52549019607843139" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 Arshakunyac ave, Yerevan," textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ThQ-GB-GQc">
+                                <rect key="frame" x="8" y="45.5" width="292" height="22"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120.00 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ba1-8J-eBm">
+                                <rect key="frame" x="385.5" y="55.5" width="168.5" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wum-bf-1dv">
+                                <rect key="frame" x="11" y="90" width="540" height="1"/>
+                                <color key="backgroundColor" red="0.7661670037937649" green="0.7661670037937649" blue="0.7661670037937649" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JDP-GJ-Vip"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQC-lx-Yeh">
+                                <rect key="frame" x="16" y="97" width="147.5" height="22"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="0.39712649828767121" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 Nov 2019 21:54" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCw-o5-yjn">
+                                <rect key="frame" x="301" y="97" width="253" height="22"/>
+                                <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="0.40469820205479451" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HXh-Ig-oJA" firstAttribute="top" secondItem="u61-UB-vLt" secondAttribute="top" constant="5" id="1MT-Dg-aog"/>
+                            <constraint firstItem="ThQ-GB-GQc" firstAttribute="top" secondItem="Cbb-zt-s1p" secondAttribute="bottom" constant="15" id="3kV-xK-9Ok"/>
+                            <constraint firstItem="Cbb-zt-s1p" firstAttribute="leading" secondItem="u61-UB-vLt" secondAttribute="leading" constant="8" id="7QT-29-Yrz"/>
+                            <constraint firstItem="gcg-y0-1g1" firstAttribute="top" secondItem="u61-UB-vLt" secondAttribute="top" constant="5" id="8kj-sS-Utd"/>
+                            <constraint firstItem="wum-bf-1dv" firstAttribute="centerX" secondItem="u61-UB-vLt" secondAttribute="centerX" id="93Q-Tw-QbI"/>
+                            <constraint firstItem="ba1-8J-eBm" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.3" id="99c-ab-Gp3"/>
+                            <constraint firstAttribute="height" constant="130" id="CrR-Dw-cLU"/>
+                            <constraint firstItem="Cbb-zt-s1p" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.3" id="JoV-lr-U7g"/>
+                            <constraint firstItem="wum-bf-1dv" firstAttribute="top" secondItem="ba1-8J-eBm" secondAttribute="bottom" constant="10" id="Jz4-f5-Qls"/>
+                            <constraint firstItem="OCw-o5-yjn" firstAttribute="trailing" secondItem="wum-bf-1dv" secondAttribute="trailing" constant="3" id="KZY-QL-Tqh"/>
+                            <constraint firstItem="Cbb-zt-s1p" firstAttribute="top" secondItem="u61-UB-vLt" secondAttribute="top" constant="5" id="UV5-pm-m89"/>
+                            <constraint firstItem="HXh-Ig-oJA" firstAttribute="leading" secondItem="gcg-y0-1g1" secondAttribute="trailing" constant="4" id="Z4c-rU-Hwf"/>
+                            <constraint firstAttribute="trailing" secondItem="HXh-Ig-oJA" secondAttribute="trailing" constant="8" id="aud-MG-Mok"/>
+                            <constraint firstItem="EQC-lx-Yeh" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.262097" id="er2-ye-B7H"/>
+                            <constraint firstItem="ThQ-GB-GQc" firstAttribute="leading" secondItem="Cbb-zt-s1p" secondAttribute="leading" id="fuL-aT-yfz"/>
+                            <constraint firstItem="ThQ-GB-GQc" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.52" id="gJ7-fZ-ocu"/>
+                            <constraint firstItem="EQC-lx-Yeh" firstAttribute="top" secondItem="wum-bf-1dv" secondAttribute="bottom" constant="6" id="hYe-A6-LCN"/>
+                            <constraint firstItem="wum-bf-1dv" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.96" id="kXP-ka-w0M"/>
+                            <constraint firstItem="OCw-o5-yjn" firstAttribute="width" secondItem="u61-UB-vLt" secondAttribute="width" multiplier="0.45" id="lxk-gy-M2F"/>
+                            <constraint firstItem="ba1-8J-eBm" firstAttribute="centerY" secondItem="ThQ-GB-GQc" secondAttribute="centerY" multiplier="1.2" id="nk8-1Q-nTe"/>
+                            <constraint firstItem="OCw-o5-yjn" firstAttribute="top" secondItem="wum-bf-1dv" secondAttribute="bottom" constant="6" id="ss1-sL-L59"/>
+                            <constraint firstItem="ba1-8J-eBm" firstAttribute="trailing" secondItem="HXh-Ig-oJA" secondAttribute="trailing" id="uil-lD-I39"/>
+                            <constraint firstItem="EQC-lx-Yeh" firstAttribute="leading" secondItem="wum-bf-1dv" secondAttribute="leading" constant="5" id="wXG-rl-EyD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="u61-UB-vLt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="0XK-LP-wRm"/>
+                    <constraint firstItem="u61-UB-vLt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="79P-vT-GDi"/>
+                    <constraint firstAttribute="bottom" secondItem="u61-UB-vLt" secondAttribute="bottom" constant="9" id="dpc-rm-yaZ"/>
+                    <constraint firstAttribute="trailing" secondItem="u61-UB-vLt" secondAttribute="trailing" constant="17" id="rJO-8G-yif"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="u61-UB-vLt" firstAttribute="top" secondItem="njF-e1-oar" secondAttribute="top" constant="8" id="AOM-Xl-i5a"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="ThQ-GB-GQc" id="R3Z-oi-44C"/>
+                <outlet property="backView" destination="u61-UB-vLt" id="TwN-x8-9DR"/>
+            </connections>
+            <point key="canvasLocation" x="47.826086956521742" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
