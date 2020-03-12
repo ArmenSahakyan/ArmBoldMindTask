@@ -28,9 +28,9 @@ class ProfileViewController: UIViewController, CustomAlertProtocol ,UINavigation
     let afManager:AlamofireManager = AlamofireManager()
     var userInfoDict:[String:Any] = [
     "accountTypeEnumValue": 2,
-    "companyName": "bfghfg",
+    "companyName": "ArmBoldMind",
     "dateOfBirth": 2,
-    "fullName": "",
+    "fullName": "Armen",
     "genderEnumValue": 2,
     "password": "password",
     "phoneNumber": "37495807672",
@@ -99,7 +99,7 @@ class ProfileViewController: UIViewController, CustomAlertProtocol ,UINavigation
     @IBAction func genderButtonTap(_ sender: Any) {
     }
     @IBAction func saveChangesButtonTap(_ sender: Any) {
-     //   afManager.editUserInfoRequest(url: userUpdateInfo, parameters: userInfoDict)
+        afManager.editUserInfoRequest(url: userUpdateInfo, parameters: userInfoDict)
     }
     @objc func profileImageTap() {
         self.performSegue(withIdentifier: "photoSegueIdentifier", sender: self)
